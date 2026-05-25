@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+type: software
+title: "Deep Learning Contextual Models for Prediction of Sport Event Outcome from Sportsman's Interviews"
+
+authors:
+  - family-names: "Velichkov"
+    given-names: "Boris"
+  - family-names: "Koychev"
+    given-names: "Ivan"
+  - family-names: "Boytcheva"
+    given-names: "Svetla"
+
+repository-code: "https://github.com/BorisVelichkov/sport-prediction-interviews-dl"
+license: "CC-BY-SA-4.0"
+
+preferred-citation:
+  type: conference-paper
+  title: "Deep learning contextual models for prediction of sport event outcome from sportsman's interviews"
+  authors:
+    - family-names: "Velichkov"
+      given-names: "Boris"
+    - family-names: "Koychev"
+      given-names: "Ivan"
+    - family-names: "Boytcheva"
+      given-names: "Svetla"
+  collection-title: "Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2019)"
+  year: 2019
+  month: 9
+  start: 1240
+  end: 1246
+  doi: "10.26615/978-954-452-056-4_142"
+  url: "https://aclanthology.org/R19-1142/"
