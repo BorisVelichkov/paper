@@ -1,0 +1,144 @@
+\documentclass[a4paper,12pt]{article}
+
+% Required packages
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[bulgarian]{babel}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{geometry}
+
+% Optional formatting
+\geometry{margin=2.5cm}
+\setlength{\tabcolsep}{4pt} % reduce column padding
+
+\begin{document}
+
+
+\setlength{\tabcolsep}{4pt} % reduce column padding
+\begin{center}
+\begin{longtable}{|>{\centering\arraybackslash}m{0.6cm}|>{\arraybackslash}m{2.0cm}|>{\centering\arraybackslash}m{1.6cm}|>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.1cm}|>{\centering\arraybackslash}m{1.8cm}|>{\centering\arraybackslash}m{1.8cm}|>{\centering\arraybackslash}m{2.2cm}|>{\centering\arraybackslash}m{1.1cm}|}
+
+\captionsetup{width=\textwidth}
+\caption{Избор на характеристики с различни методи за селекция.} \label{tab:feature-selection} \\
+\hline
+\textbf{Id} & \textbf{Feature} & \textbf{Pearson} & \textbf{Chi-2} & \textbf{RFE} & \textbf{Logistics} & \textbf{Random Forest} & \textbf{LightGBM} & \textbf{Total} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Id} & \textbf{Feature} & \textbf{Pearson} & \textbf{Chi-2} & \textbf{RFE} & \textbf{Logistics} & \textbf{Random Forest} & \textbf{LightGBM} & \textbf{Total} \\
+\hline
+\endhead
+
+\hline \multicolumn{9}{r}{\textit{Продължава на следващата страница}} \\
+\endfoot
+
+\hline
+\endlastfoot
+   1 &        шанс &     True &   True &   True &       True &           True &      True &      6 \\
+   2 &      чувств &     True &   True &   True &       True &           True &      True &      6 \\
+   3 &       форма &     True &   True &   True &       True &           True &      True &      6 \\
+   4 &     феновет &     True &   True &   True &       True &           True &      True &      6 \\
+   5 &       факта &     True &   True &   True &       True &           True &      True &      6 \\
+   6 &     участва &     True &   True &   True &       True &           True &      True &      6 \\
+   7 &     уважава &     True &   True &   True &       True &           True &      True &      6 \\
+   8 &     треньор &     True &   True &   True &       True &           True &      True &      6 \\
+   9 &  тренировъч &     True &   True &   True &       True &           True &      True &      6 \\
+  10 &       тежък &     True &   True &   True &       True &           True &      True &      6 \\
+  11 &      такава &     True &   True &   True &       True &           True &      True &      6 \\
+  12 &      стойка &     True &   True &   True &       True &           True &      True &      6 \\
+  13 &       стане &     True &   True &   True &       True &           True &      True &      6 \\
+  14 &     срещата &     True &   True &   True &       True &           True &      True &      6 \\
+  15 &    способен &     True &   True &   True &       True &           True &      True &      6 \\
+  16 &     специал &     True &   True &   True &       True &           True &      True &      6 \\
+  17 &       софия &     True &   True &   True &       True &           True &      True &      6 \\
+  18 &       силен &     True &   True &   True &       True &           True &      True &      6 \\
+  19 &      самият &     True &   True &   True &       True &           True &      True &      6 \\
+  20 &      разбир &     True &   True &   True &       True &           True &      True &      6 \\
+  21 &         път &     True &   True &   True &       True &           True &      True &      6 \\
+  22 &       пулев &     True &   True &   True &       True &           True &      True &      6 \\
+  23 &     приятел &     True &   True &   True &       True &           True &      True &      6 \\
+  24 &     пресира &     True &   True &   True &       True &           True &      True &      6 \\
+  25 &      почивк &     True &   True &   True &       True &           True &      True &      6 \\
+  26 &   постижени &     True &   True &   True &       True &           True &      True &      6 \\
+  27 &      помогн &     True &   True &   True &       True &           True &      True &      6 \\
+  28 &      получи &     True &   True &   True &       True &           True &      True &      6 \\
+  29 &     оценява &     True &   True &   True &       True &           True &      True &      6 \\
+  30 &       остан &     True &   True &   True &       True &           True &      True &      6 \\
+  31 &        общо &     True &   True &   True &       True &           True &      True &      6 \\
+  32 &   нокаутира &     True &   True &   True &       True &           True &      True &      6 \\
+  33 &     неприят &     True &   True &   True &       True &           True &      True &      6 \\
+  34 &   необходим &     True &   True &   True &       True &           True &      True &      6 \\
+  35 &      нататъ &     True &   True &   True &       True &           True &      True &      6 \\
+  36 &      направ &     True &   True &   True &       True &           True &      True &      6 \\
+  37 &      найваж &     True &   True &   True &       True &           True &      True &      6 \\
+  38 &       надал &     True &   True &   True &       True &           True &      True &      6 \\
+  39 &       място &     True &   True &   True &       True &           True &      True &      6 \\
+  40 &         моя &     True &   True &   True &       True &           True &      True &      6 \\
+  41 &     миналат &     True &   True &   True &       True &           True &      True &      6 \\
+  42 &      кубрат &     True &   True &   True &       True &           True &      True &      6 \\
+  43 &        край &     True &   True &   True &       True &           True &      True &      6 \\
+  44 &        клей &     True &   True &   True &       True &           True &      True &      6 \\
+  45 &     качеств &     True &   True &   True &       True &           True &      True &      6 \\
+  46 &       карам &     True &   True &   True &       True &           True &      True &      6 \\
+  47 &      каквот &     True &   True &   True &       True &           True &      True &      6 \\
+  48 &        кажа &     True &   True &   True &       True &           True &      True &      6 \\
+  49 &     истинск &     True &   True &   True &       True &           True &      True &      6 \\
+  50 &  интересува &     True &   True &   True &       True &           True &      True &      6 \\
+  51 &       изобщ &     True &   True &   True &       True &           True &      True &      6 \\
+  52 &       играт &     True &   True &   True &       True &           True &      True &      6 \\
+  53 &        земя &     True &   True &   True &       True &           True &      True &      6 \\
+  54 &       здрав &     True &   True &   True &       True &           True &      True &      6 \\
+  55 &     единств &     True &   True &   True &       True &           True &      True &      6 \\
+  56 &       дължи &     True &   True &   True &       True &           True &      True &      6 \\
+  57 &       добри &     True &   True &   True &       True &           True &      True &      6 \\
+  58 &      децата &     True &   True &   True &       True &           True &      True &      6 \\
+  59 &       голям &     True &   True &   True &       True &           True &      True &      6 \\
+  60 &      вярвам &     True &   True &   True &       True &           True &      True &      6 \\
+  61 &     вълнува &     True &   True &   True &       True &           True &      True &      6 \\
+  62 &       взето &     True &   True &   True &       True &           True &      True &      6 \\
+  63 &      вериги &     True &   True &   True &       True &           True &      True &      6 \\
+  64 &        бърз &     True &   True &   True &       True &           True &      True &      6 \\
+  65 &      боксов &     True &   True &   True &       True &           True &      True &      6 \\
+  66 &        бокс &     True &   True &   True &       True &           True &      True &      6 \\
+  67 &      близък &     True &   True &   True &       True &           True &      True &      6 \\
+  68 &      чужбин &     True &   True &  False &       True &           True &      True &      5 \\
+  69 &     чудесно &     True &   True &  False &       True &           True &      True &      5 \\
+  70 &    фокусира &     True &   True &  False &       True &           True &      True &      5 \\
+  71 &       успях &     True &   True &  False &       True &           True &      True &      5 \\
+  72 &  състезател &     True &   True &  False &       True &           True &      True &      5 \\
+  73 &   страхотно &     True &   True &  False &       True &           True &      True &      5 \\
+  74 &    световен &     True &   True &  False &       True &           True &      True &      5 \\
+  75 &      радвам &     True &   True &  False &       True &           True &      True &      5 \\
+  76 &      процес &     True &   True &  False &       True &           True &      True &      5 \\
+  77 &     проблем &     True &  False &   True &       True &           True &      True &      5 \\
+  78 &     предлож &     True &   True &  False &       True &           True &      True &      5 \\
+  79 &      покаже &     True &   True &  False &       True &           True &      True &      5 \\
+  80 &   подобрият &     True &   True &  False &       True &           True &      True &      5 \\
+  81 &    подготвя &     True &   True &  False &       True &           True &      True &      5 \\
+  82 &     подготв &     True &  False &   True &       True &           True &      True &      5 \\
+  83 &        план &     True &  False &   True &       True &           True &      True &      5 \\
+  84 &       обрат &     True &   True &  False &       True &           True &      True &      5 \\
+  85 &       никак &     True &   True &  False &       True &           True &      True &      5 \\
+  86 &      наясно &     True &   True &  False &       True &           True &      True &      5 \\
+  87 &  напоследък &     True &   True &  False &       True &           True &      True &      5 \\
+  88 &      найдоб &     True &  False &   True &       True &           True &      True &      5 \\
+  89 &     мотивир &     True &   True &  False &       True &           True &      True &      5 \\
+  90 &      момчет &     True &  False &   True &       True &           True &      True &      5 \\
+  91 &        млад &     True &   True &  False &       True &           True &      True &      5 \\
+  92 &        клуб &     True &   True &  False &       True &           True &      True &      5 \\
+  93 &       искам &     True &  False &   True &       True &           True &      True &      5 \\
+  94 &       иначе &     True &   True &  False &       True &           True &      True &      5 \\
+  95 &     доказва &     True &   True &  False &       True &           True &      True &      5 \\
+  96 &      докажа &     True &   True &  False &       True &           True &      True &      5 \\
+  97 &      двубой &     True &  False &   True &       True &           True &      True &      5 \\
+  98 &       върха &     True &   True &  False &       True &           True &      True &      5 \\
+  99 &       видим &     True &  False &   True &       True &           True &      True &      5 \\
+ 100 &       важен &     True &   True &  False &       True &           True &      True &      5 \\
+ 101 &      бързин &    False &   True &   True &       True &           True &      True &      5 \\
+\end{longtable}
+\end{center}
+
+\end{document}

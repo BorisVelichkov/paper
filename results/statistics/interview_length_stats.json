@@ -1,0 +1,15 @@
+{
+  "count": 50,
+  "tokens": {
+    "mean": 159.1,
+    "median": 102.0,
+    "min": 29,
+    "max": 1135
+  },
+  "symbols": {
+    "mean": 773.86,
+    "median": 493.0,
+    "min": 136,
+    "max": 5451
+  }
+}
